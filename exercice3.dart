@@ -4,3 +4,11 @@ void verifierMotdepasse(String mp) {
   }
   print("Mot de passe valide.");
 }
+
+void main() {
+  try {
+    verifierMotdepasse("abc");
+  } catch (e) {
+    print("Erreur : $e");
+  }
+}
