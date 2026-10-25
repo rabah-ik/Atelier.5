@@ -6,3 +6,6 @@ void main() {
     print("Erreur de format : ${e.message}");
   }
 }
+} finally {
+    print("Fin d'opération");
+  }
